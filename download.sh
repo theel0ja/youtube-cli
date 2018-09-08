@@ -1,5 +1,5 @@
 SUB_LANG=en
-CHANNEL_URL="https://www.youtube.com/channel/UC7_gcs09iThXybpVgjHZ_7g"
+CHANNEL_URL=$1
 
 youtube-dl \
 --write-sub \
